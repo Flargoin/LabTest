@@ -1,0 +1,224 @@
+@media (max-width: 1550px) {
+  .order__wrapper {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .order__delivery {
+    padding: 40px;
+    max-width: 70%;
+  }
+  .order__info {
+    padding: 40px;
+    max-width: 30%;
+  }
+  .order .item {
+    padding: 15px;
+  }
+  .slider__item-price {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+@media (max-width: 1400px) {
+  .order .title__h2 {
+    font-size: 22px;
+  }
+  .order .title__h3 {
+    font-size: 18px;
+  }
+  .order .descr {
+    font-size: 16px;
+  }
+  .order .link {
+    font-size: 17px;
+  }
+  .order__info {
+    padding: 30px;
+  }
+  .order__info .summary__text,
+.order__info .discount__text,
+.order__info .prediscount__text {
+    font-size: 18px;
+  }
+  .order__info .summary__count,
+.order__info .discount__count,
+.order__info .prediscount__count {
+    font-size: 18px;
+  }
+  .slider__item {
+    height: 130px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .slider__item-price {
+    font-size: 18px;
+  }
+  .slider__item-address {
+    max-width: 300px;
+  }
+  .date .check__label {
+    font-size: 18px;
+  }
+  .recipient .select select {
+    font-size: 18px;
+  }
+  .recipient .select__descr {
+    font-size: 14px;
+  }
+  .recipient__info-select:not(:last-child) {
+    margin-right: 12.5px;
+  }
+}
+@media (max-width: 1200px) {
+  .recipient__info-select:not(:last-child) {
+    margin-top: 14px;
+  }
+}
+@media (max-width: 991px) {
+  .order__delivery {
+    max-width: 100%;
+    border-right: none;
+  }
+  .order__info {
+    display: none;
+  }
+  .order .title__h2 {
+    font-size: 21px;
+  }
+  .order .title__h3 {
+    font-size: 17px;
+  }
+  .order .descr {
+    font-size: 14px;
+  }
+  .slider__item {
+    max-width: 100%;
+    height: 116px;
+  }
+  .bottom__container {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .bottom__price {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .bottom__info {
+    -webkit-box-pack: initial;
+    -ms-flex-pack: initial;
+    justify-content: initial;
+  }
+  .bottom__info-descr {
+    display: none;
+  }
+  .bottom__info-mobile {
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+    color: #333333;
+  }
+  .bottom__info-price {
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .bottom__info-link {
+    display: block !important;
+  }
+  .bottom__btn {
+    margin-top: 16px;
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+}
+@media (max-width: 768px) {
+  .recipient .select {
+    margin-bottom: 14px;
+  }
+  .recipient .select__phone {
+    margin-right: 15px;
+  }
+  .recipient .select__fullname {
+    width: 100%;
+  }
+  .recipient .select select {
+    font-size: 17px;
+  }
+}
+@media (max-width: 576px) {
+  .slick-prev,
+.slick-next {
+    display: none !important;
+  }
+  .order__title {
+    font-size: 27px;
+    padding-left: 16px;
+  }
+  .order__delivery {
+    padding: 24px 15px;
+  }
+  .order .item {
+    padding: 16px 20px;
+  }
+  .date__wrapper {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .date__other {
+    margin-left: 0;
+    margin-top: 12px;
+  }
+  .date__options {
+    margin-top: 24px;
+  }
+  .date .check__label {
+    display: block;
+  }
+  .recipient .select__new-user, .recipient .select__new-phone {
+    margin: 0;
+  }
+  .recipient .select {
+    margin: 0;
+  }
+  .recipient .select__new-user {
+    margin-top: 0;
+    position: absolute;
+    top: 3px;
+    right: 0;
+  }
+  .phone__wrapper {
+    margin-top: 14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .bottom__container {
+    padding: 0 16px;
+  }
+  .bottom__btn {
+    padding: 21px;
+  }
+}
+/*# sourceMappingURL=media.css.map */

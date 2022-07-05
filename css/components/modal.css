@@ -1,0 +1,88 @@
+.modal {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background-color: #fff;
+  padding: 40px 16px;
+  z-index: 999;
+}
+.modal__title {
+  font-size: 21px;
+}
+.modal__title span {
+  font-weight: 400;
+}
+.modal .price {
+  margin-top: 20px;
+}
+.modal .discount {
+  margin: 14px 0;
+  padding-bottom: 14px;
+}
+.modal .amount {
+  padding: 14px 0;
+  border-top: 1px solid #E5E5E5;
+  border-bottom: 1px solid #E5E5E5;
+}
+.modal .price,
+.modal .discount,
+.modal .amount {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.modal .text {
+  font-weight: 400;
+  font-size: 17px;
+  color: #333333;
+}
+.modal .summary {
+  font-weight: 700;
+  font-size: 17px;
+  color: #333333;
+}
+.modal__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 85px;
+  border-top: 1px solid #D6D6D6;
+  background: -webkit-gradient(linear, left bottom, left top, from(#FFFFFF), to(#FFFFFF)), #F8F8F8;
+  background: -o-linear-gradient(bottom, #FFFFFF, #FFFFFF), #F8F8F8;
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #F8F8F8;
+}
+.modal__close {
+  max-width: 328px;
+  width: 100%;
+  padding: 16px 20px;
+  font-weight: 500;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  color: #333333;
+  background: #FFFFFF;
+  border: 1px solid #D6D6D6;
+  -webkit-box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12), 0px 3px 1px rgba(0, 0, 0, 0.04), 0px 2px 0px rgba(149, 135, 128, 0.4);
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12), 0px 3px 1px rgba(0, 0, 0, 0.04), 0px 2px 0px rgba(149, 135, 128, 0.4);
+  border-radius: 4px;
+}
+/*# sourceMappingURL=modal.css.map */
